@@ -52,3 +52,7 @@ Thumbs.db
 # Environment files
 .env
 !.env.example
+
+# Uploads directory
+uploads/
+backend/uploads/
