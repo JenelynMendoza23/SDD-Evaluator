@@ -5,8 +5,22 @@ import org.springframework.stereotype.Service;
 
 /**
  * Placeholder AI Evaluation Service
- * This service provides mock AI evaluation functionality
- * In production, this would integrate with actual AI/ML models
+ * 
+ * IMPORTANT: This is a MOCK implementation for demonstration purposes only.
+ * This service generates simulated evaluation scores and feedback.
+ * 
+ * Before deploying to production, this entire service MUST be replaced with:
+ * 1. Integration with actual AI/ML models (e.g., OpenAI, Hugging Face, custom models)
+ * 2. Real document parsing and analysis logic
+ * 3. Proper error handling and validation
+ * 4. Performance optimization for large documents
+ * 
+ * Current Implementation:
+ * - Generates random scores based on simple heuristics
+ * - Produces generic feedback that does not reflect actual document content
+ * - Does not perform real natural language processing or document analysis
+ * 
+ * @deprecated This is a placeholder. Replace with real AI integration before production use.
  */
 @Service
 public class AIEvaluationService {

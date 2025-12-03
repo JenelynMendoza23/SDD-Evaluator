@@ -45,6 +45,16 @@ public class GoogleDriveService {
         return generateMockDocument(fileId);
     }
 
+    /**
+     * Generates a mock document for testing purposes.
+     * 
+     * IMPORTANT: This is a placeholder implementation for demonstration only.
+     * In production, this method should be replaced with actual Google Drive API
+     * integration to fetch real document content using the Google Drive API client.
+     * 
+     * @param fileId The Google Drive file identifier
+     * @return Mock document content for testing
+     */
     private String generateMockDocument(String fileId) {
         return String.format("""
                 Software Design Description (SDD)
